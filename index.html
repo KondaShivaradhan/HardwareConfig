@@ -6,9 +6,9 @@
     var performance = window.performance || window.mozPerformance || window.msPerformance || window.webkitPerformance || {};
 
     document.write("<br>");
-    for (var value in performance) {
+    /*for (var value in performance) {
       document.write(value + "<br>");
-    }
+    }*/
 
     document.write("<br><br><br>");
 
@@ -17,8 +17,8 @@
     var gl = canvas.getContext("experimental-webgl");
 
     document.write(gl.getParameter(gl.RENDERER) + "<br>");
-    document.write(gl.getParameter(gl.VENDOR) + "<br>");
-    document.write(getUnmaskedInfo(gl).vendor + "<br>");
+    //document.write(gl.getParameter(gl.VENDOR) + "<br>");
+    //document.write(getUnmaskedInfo(gl).vendor + "<br>");
     document.write(getUnmaskedInfo(gl).renderer + "<br>");
 
 
