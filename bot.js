@@ -96,4 +96,4 @@ client.on('message', message => {
     }
 })
 
-client.login('NTc4NTE0MDM0Nzg2MDQxODc2.XN0tLg.0PneX87gItrL1pKNO-GC-1808oI')
+client.login('Your Token HERE')
